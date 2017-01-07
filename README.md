@@ -2,9 +2,10 @@
 This is for Digit Recognition using Microsoft DeepLearning Platform :CNTK
 
 Training:
-   - This was trained using TIDIGI*T*S
-   - all the files were played back and recorded again with microphone,saved in .wav format.
-   - features were extracted using "python_speech_features"(https://github.com/jameslyons/python_speech_features)
+   - This was trained to recognize 0-4 in English.
+   - to install CNTK on ubuntu use: https://github.com/Microsoft/CNTK/wiki/Setup-CNTK-on-Linux
+   - to install CNTK on Windows use: https://github.com/Microsoft/CNTK/wiki/Setup-CNTK-on-Windows
+   - features were extracted using "python_speech_features"with default values (https://github.com/jameslyons/python_speech_features)
    - features were trained using Microsoft CNTK
    - for getting ready the data for train:
       - run loop.py- this file inputs the testwav.txt(line by line of training wav audios) and outputs all.txt  containing MFF features with labels at the beginning of each line.
