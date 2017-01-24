@@ -8,7 +8,7 @@ Training:
    - features were extracted using "python_speech_features"with default values (https://github.com/jameslyons/python_speech_features)
    - features were trained using Microsoft CNTK
    - for getting ready the data for train:
-      - run loop.py- this file inputs the testwav.txt(line by line of training wav audios) and outputs all.txt  containing MFF features with labels at the beginning of each line.
+      - run loop.py- this file inputs the testwav.txt(line by line of training wav audios) and outputs all.txt  containing MFCC features with labels at the beginning of each line.
       - run uci2ctf.py with this command: python uci2ctf.py --input_file train.txt --features_start 1 --features_dim 533 --labels_start 0 --labels_dim 1 --num_labels 5 --output_file train2.txt
 
 
